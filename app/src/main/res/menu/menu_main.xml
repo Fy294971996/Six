@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.fy_wy.myapplication.MainActivity">
+    <group
+        android:id="@+id/group_one"
+        android:checkableBehavior="single"
+        />
+    <item
+        android:id="@+id/menu_one"
+        android:title="聊天软件"
+        />
+    <item
+        android:id="@+id/menu_two"
+        android:title="视频软件"/>
+    <item
+        android:id="@+id/menu_three"
+        android:title="游戏软件"
+        />
+</menu>
